@@ -15,7 +15,7 @@ subjects.forEach(item => {
     });
 });
 
-// Optional: form submit
+
 document.getElementById("regForm").addEventListener("submit", function(e){
     e.preventDefault();
       e.preventDefault();
@@ -39,11 +39,11 @@ document.getElementById("regForm").addEventListener("submit", function(e){
     }
 
     let studentName = document.getElementById("name").value;
-
+    var a=1;
     let message =
         "Student Name: " + studentName + "\n\n" +
-        "Selected Subjects:\n- " + selectedSubjects.join("\n- ") + "\n\n" +
+        "Selected Subjects:\n "+ a++ + selectedSubjects.join("\n "+(a++)) + "\n\n" +
         "Total Fee: ₹" + totalFee;
 
-    alert(message);
+    document.getElementById("result").innerText = message;
 });

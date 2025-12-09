@@ -1,6 +1,6 @@
 body{
     font-family: 'Times New Roman';
-    background: #f2f390 ;
+    background: #085167ce ;
     padding: 40px;
     font-size: 18px;
 }
@@ -8,22 +8,22 @@ body{
     max-width: 500px;
     max-height: 900px;
     margin: auto;
-    background: #f2f520 ;
+    background: #f2de08 ;
     padding: 25px;
     border-radius: 25px;
     box-shadow: 0 0 10px rgba(1, 1, 1, 1);
 }
 h2{
     text-align: center;
-    color: #33a1a1;
+    color: #063847ce;
 }
 .subject-list label{
     display: block;
-    padding: 6px 0;
+    padding: 6px 1;
     cursor: pointer;
 }
 .total-box{
-    background: #33f030;
+    background: #19b116b6;
     padding: 10px;
     font-size: 18px;
     margin: 15px 0;
@@ -33,7 +33,7 @@ button{
     width: 100%;
     padding: 10px;
     font-size: 20px;
-    background: #33a1f1;
+    background: #30a1f1;
     border: none;
     color: white;
     border-radius: 5px;
@@ -41,4 +41,13 @@ button{
 }
 button:hover{
     background: #2878c7;
+}
+#result{
+    margin-top: 20px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 15px;
+    border-style:double;
+    font-size: 16px;
+    white-space: pre-Line;
 }
