@@ -11,6 +11,7 @@ public class App {
 
             // Add Student
             // Employee e1 = new Employee("Vivek", "vivekk.techie@example.com", 75000);
+            // Student s1= new Student("Vivek","AIML","vivekk.techie@gmail.com")
             Student s1 = new Student(sc.next(), sc.next(), sc.next());
 
             dao.addStudent(s1);

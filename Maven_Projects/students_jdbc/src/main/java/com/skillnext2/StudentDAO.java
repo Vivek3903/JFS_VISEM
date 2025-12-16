@@ -20,8 +20,8 @@ public class StudentDAO {
         String sql = "INSERT INTO student (name, branch, email) VALUES (?, ?, ?)";
         PreparedStatement stmt = conn.prepareStatement(sql);
         stmt.setString(1, st.getName());
-        stmt.setString(3, st.getBranch());
-        stmt.setString(2, st.getEmail());
+        stmt.setString(2, st.getBranch());
+        stmt.setString(3, st.getEmail());
         stmt.executeUpdate();
         conn.close();
     }
