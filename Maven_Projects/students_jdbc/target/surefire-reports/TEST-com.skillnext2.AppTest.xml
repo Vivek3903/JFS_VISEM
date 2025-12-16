@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/vivek3903/JFS_VISEM/Maven_Projects/students_jdbc/target/surefire/surefirebooter-20251216102036410_3.jar /Users/vivek3903/JFS_VISEM/Maven_Projects/students_jdbc/target/surefire 2025-12-16T10-20-36_376-jvmRun1 surefire-20251216102036410_1tmp surefire_0-20251216102036410_2tmp"/>
+    <property name="sun.java.command" value="/Users/vivek3903/JFS_VISEM/Maven_Projects/students_jdbc/target/surefire/surefirebooter-20251216215824170_3.jar /Users/vivek3903/JFS_VISEM/Maven_Projects/students_jdbc/target/surefire 2025-12-16T21-58-24_134-jvmRun1 surefire-20251216215824170_1tmp surefire_0-20251216215824170_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/vivek3903/JFS_VISEM/Maven_Projects/students_jdbc/target/test-classes:/Users/vivek3903/JFS_VISEM/Maven_Projects/students_jdbc/target/classes:/Users/vivek3903/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/vivek3903/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar:/Users/vivek3903/.m2/repository/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/vivek3903/JFS_VISEM/Maven_Projects/students_jdbc/target/surefire/surefirebooter-20251216102036410_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/vivek3903/JFS_VISEM/Maven_Projects/students_jdbc/target/surefire/surefirebooter-20251216215824170_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="23+37-2369"/>
